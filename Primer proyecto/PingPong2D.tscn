@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=3 uid="uid://doqatspooapov"]
+
+[ext_resource type="Texture2D" uid="uid://6apkkuug4ia6" path="res://Sprites/paleta.png" id="1_uaej5"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_uaej5")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(120, 0)
+texture = ExtResource("1_uaej5")
